@@ -1,0 +1,84 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	font-family: arial;
+}
+
+h1{
+	text-align: center;
+}
+h2{
+	display: inline;
+	margin-left: 25px;
+}
+p{
+	font-size: 15px;
+	margin: 3px 0px
+}
+
+section{
+	margin-top: 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.app{
+	margin-bottom: 55px;
+	width: 96%;
+}
+
+.titulo{
+	display: flex;
+	align-items: center;
+}
+
+img{
+	width: 100px;
+	border: solid black 1.5px;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+
+.download {
+	margin-top: 25px;
+}
+
+.download > p{
+	width: inherit;
+	text-align: center;
+}
+
+button{
+	margin-top: 8px;
+	width: 100%;
+	height: 40px;
+	background-color: #34fd36;
+	color: #000;
+	font-size: 17px;
+	font-weight: 600;
+	border: solid 1px #34fd36;
+	border-radius: 6px;
+}
+
+
+.detalhes{
+	margin-top: 15px;
+}
+
+footer{
+	width: 100%;
+	position: relative;
+	top: 10px;
+}
+footer > span{
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+hr{
+	border: .5px solid gray;
+}
